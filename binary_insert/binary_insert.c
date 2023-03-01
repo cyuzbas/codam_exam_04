@@ -26,7 +26,7 @@ int search(t_btree* head, int value)
 	return (0);
 }
 
-t_btree* insert_binary_tree(t_btree *node, int value)
+t_btree* insert(t_btree *node, int value)
 {
 	if (value > node->value)
 	{
