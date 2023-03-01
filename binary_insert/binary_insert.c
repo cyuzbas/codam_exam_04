@@ -39,7 +39,7 @@ t_btree* insert(t_btree *node, int value)
 		}
 		return (insert(node->right, value)); 
 	}
-	if (value > node->value)
+	if (value < node->value)
 	{
 		if (!node->left)
 		{
